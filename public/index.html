@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+  </head>
+  <body>
+    <form id="myForm" method="POST" action="/submit">
+      <input type="text" id="username" name="username" placeholder="Username" />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+      <button type="submit">Submit</button>
+    </form>
+
+    <br /><br />
+
+    <form id="calculator" method="POST" action="/calculate">
+      <input type="text" name="firstNumber" placeholder="First Number" />
+      <input
+        type="text"
+        name="secondNumber"
+        placeholder="Second Number Number"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
